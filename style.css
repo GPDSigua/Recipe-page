@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: outfit;
+}
+body {
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: young serif ;
+}
+.banner article h3{
+    color: hsl(332, 51%, 32%);
+}
+.banner article {
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    background-color: hsl(330, 100%, 98%);
+    font-family: outfit;
+    border-radius: 0.5rem;
+    line-height: 2;
+    color: hsl(30, 10%, 34%);
+}
+.container img {
+    max-width: 100%;
+    border-radius: 1rem;
+}
+.container {
+    background-color:hsl(0, 0%, 100%);
+    max-width: 700px;
+    border-radius: 1.50rem;
+    margin: 5rem auto 0;
+    padding: 2rem;
+}
+.container div:not(:first-child) {
+    padding: 1.5rem;
+}
+h1, h2 {
+    letter-spacing: 0.05rem;
+}
+.banner h1 {
+    margin-bottom: 1rem;
+    font-family: young serif;
+    color: hsl(20, 5%, 18%);
+    margin-top: 2rem;
+    font-size: 40px;
+}
+p{
+    line-height: 1.6;
+    color: hsl(30, 10%, 34%)
+}
+ul, ol {
+    padding-left: 20px;
+    line-height: 2;
+    color: hsl(30, 10%, 34%)
+
+}
+li {
+    margin-top: 0.5rem;
+}
+.ingredients h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: young serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+.instructions {
+    border-top: 1px solid hsl(30, 18%, 87%);
+    border-bottom:1px solid hsl(30, 18%, 87%);
+}
+.instructions h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: young serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+.instructions li {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+.instructions span {
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+}
+.nutrition h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: young serif;
+    font-weight: 400;
+    font-size:30px;
+}
+
+.nutrition article ul li{
+    padding: 0.25rem 0;
+    display: flex;
+    text-align:justify;
+    justify-content: space-around;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+.nutrition article ul li:last-child {
+    border-bottom: none;
+}
+
+.nutrition p{
+    margin-top:  1rem;
+}
+.nutrition span {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
